@@ -1,0 +1,40 @@
+Classification Report (Test Set):
+                            precision    recall  f1-score   support
+
+         actinic keratosis       0.44      0.42      0.43        66
+      basal cell carcinoma       0.52      0.43      0.47       103
+            dermatofibroma       0.17      0.30      0.22        23
+                  melanoma       0.46      0.42      0.44       223
+                     nevus       0.86      0.91      0.88      1341
+pigmented benign keratosis       0.51      0.38      0.43       220
+           vascular lesion       0.84      0.55      0.67        29
+
+                  accuracy                           0.75      2005
+                 macro avg       0.54      0.49      0.51      2005
+              weighted avg       0.74      0.75      0.74      2005
+
+
+Per-epoch metrics:
+Epoch [1/20] Train Loss: 0.9720, Train Acc: 66.45% | Test Loss: 0.8744, Test Acc: 67.18%
+Epoch [2/20] Train Loss: 0.8699, Train Acc: 68.35% | Test Loss: 0.8512, Test Acc: 69.43%
+Epoch [3/20] Train Loss: 0.8329, Train Acc: 69.96% | Test Loss: 0.8261, Test Acc: 69.93%
+Epoch [4/20] Train Loss: 0.8004, Train Acc: 70.26% | Test Loss: 0.8021, Test Acc: 70.32%
+Epoch [5/20] Train Loss: 0.7736, Train Acc: 71.87% | Test Loss: 0.7653, Test Acc: 72.22%
+Epoch [6/20] Train Loss: 0.7448, Train Acc: 72.51% | Test Loss: 0.7704, Test Acc: 72.52%
+Epoch [7/20] Train Loss: 0.7221, Train Acc: 73.93% | Test Loss: 0.7674, Test Acc: 73.67%
+Epoch [8/20] Train Loss: 0.6713, Train Acc: 75.36% | Test Loss: 0.7192, Test Acc: 74.66%
+Epoch [9/20] Train Loss: 0.6348, Train Acc: 76.87% | Test Loss: 0.6771, Test Acc: 75.71%
+Epoch [10/20] Train Loss: 0.5793, Train Acc: 78.66% | Test Loss: 0.7033, Test Acc: 74.11%
+Epoch [11/20] Train Loss: 0.5178, Train Acc: 80.80% | Test Loss: 0.6813, Test Acc: 74.81%
+Epoch [12/20] Train Loss: 0.4527, Train Acc: 83.12% | Test Loss: 0.6848, Test Acc: 75.11%
+Epoch [13/20] Train Loss: 0.3692, Train Acc: 86.62% | Test Loss: 0.8118, Test Acc: 74.71%
+Epoch [14/20] Train Loss: 0.3046, Train Acc: 88.60% | Test Loss: 0.8578, Test Acc: 75.06%
+Epoch [15/20] Train Loss: 0.2433, Train Acc: 91.46% | Test Loss: 0.8992, Test Acc: 75.46%
+Epoch [16/20] Train Loss: 0.1640, Train Acc: 94.34% | Test Loss: 1.0500, Test Acc: 75.46%
+Epoch [17/20] Train Loss: 0.1594, Train Acc: 94.24% | Test Loss: 0.9785, Test Acc: 74.56%
+Epoch [18/20] Train Loss: 0.1118, Train Acc: 96.22% | Test Loss: 1.1429, Test Acc: 74.31%
+Epoch [19/20] Train Loss: 0.0872, Train Acc: 96.98% | Test Loss: 1.4399, Test Acc: 73.57%
+Epoch [20/20] Train Loss: 0.0809, Train Acc: 97.15% | Test Loss: 1.3071, Test Acc: 74.71%
+
+Model path: D:\dataset\ham\organized_ham\vgg16_skin_cancer_model.pth
+Confusion matrix: D:\dataset\ham\organized_ham\confusion_matrix.png
