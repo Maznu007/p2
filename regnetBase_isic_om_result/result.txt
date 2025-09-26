@@ -1,0 +1,31 @@
+Final Test Accuracy: 0.5593
+
+Classification Report:
+                            precision    recall  f1-score   support
+
+         actinic keratosis       0.00      0.00      0.00        16
+      basal cell carcinoma       0.83      0.94      0.88        16
+            dermatofibroma       1.00      0.50      0.67        16
+                  melanoma       0.20      0.19      0.19        16
+                     nevus       0.36      1.00      0.52        16
+pigmented benign keratosis       0.75      0.94      0.83        16
+      seborrheic keratosis       0.00      0.00      0.00         3
+   squamous cell carcinoma       0.86      0.38      0.52        16
+           vascular lesion       1.00      1.00      1.00         3
+
+                  accuracy                           0.56       118
+                 macro avg       0.56      0.55      0.51       118
+              weighted avg       0.57      0.56      0.52       118
+
+
+Per-epoch results:
+Epoch 1: Train Loss = 1.5266, Train Acc = 0.4980, Test Acc = 0.4153
+Epoch 2: Train Loss = 0.5968, Train Acc = 0.8035, Test Acc = 0.5593
+Epoch 3: Train Loss = 0.2568, Train Acc = 0.8910, Test Acc = 0.5508
+Epoch 4: Train Loss = 0.1677, Train Acc = 0.9156, Test Acc = 0.5763
+Epoch 5: Train Loss = 0.1699, Train Acc = 0.9084, Test Acc = 0.5847
+Epoch 6: Train Loss = 0.1455, Train Acc = 0.9156, Test Acc = 0.5847
+Epoch 7: Train Loss = 0.1326, Train Acc = 0.9107, Test Acc = 0.5763
+Epoch 8: Train Loss = 0.1151, Train Acc = 0.9241, Test Acc = 0.6017
+Epoch 9: Train Loss = 0.1208, Train Acc = 0.9156, Test Acc = 0.5593
+Epoch 10: Train Loss = 0.1218, Train Acc = 0.9326, Test Acc = 0.5593

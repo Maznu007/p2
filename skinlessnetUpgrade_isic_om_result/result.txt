@@ -1,0 +1,44 @@
+Epoch 1: Train Loss=1.9288, Train Acc=0.3274, Test Acc=0.2542
+Epoch 2: Train Loss=1.6952, Train Acc=0.3966, Test Acc=0.3051
+Epoch 3: Train Loss=1.6385, Train Acc=0.4149, Test Acc=0.2712
+Epoch 4: Train Loss=1.5891, Train Acc=0.4265, Test Acc=0.2881
+Epoch 5: Train Loss=1.5847, Train Acc=0.4283, Test Acc=0.3390
+Epoch 6: Train Loss=1.5298, Train Acc=0.4462, Test Acc=0.3051
+Epoch 7: Train Loss=1.5251, Train Acc=0.4493, Test Acc=0.2797
+Epoch 8: Train Loss=1.4971, Train Acc=0.4448, Test Acc=0.3051
+Epoch 9: Train Loss=1.5121, Train Acc=0.4565, Test Acc=0.3051
+Epoch 10: Train Loss=1.4848, Train Acc=0.4578, Test Acc=0.2881
+Epoch 11: Train Loss=1.4780, Train Acc=0.4694, Test Acc=0.2881
+Epoch 12: Train Loss=1.4706, Train Acc=0.4788, Test Acc=0.2966
+Epoch 13: Train Loss=1.4658, Train Acc=0.4667, Test Acc=0.2881
+Epoch 14: Train Loss=1.4643, Train Acc=0.4725, Test Acc=0.2797
+Epoch 15: Train Loss=1.4507, Train Acc=0.4739, Test Acc=0.3220
+Epoch 16: Train Loss=1.4412, Train Acc=0.4837, Test Acc=0.3051
+Epoch 17: Train Loss=1.4558, Train Acc=0.4681, Test Acc=0.3305
+Epoch 18: Train Loss=1.4459, Train Acc=0.4766, Test Acc=0.3390
+Epoch 19: Train Loss=1.4464, Train Acc=0.4824, Test Acc=0.3051
+Epoch 20: Train Loss=1.4393, Train Acc=0.4846, Test Acc=0.3390
+Epoch 21: Train Loss=1.4543, Train Acc=0.4752, Test Acc=0.3220
+Epoch 22: Train Loss=1.4131, Train Acc=0.4926, Test Acc=0.2966
+Epoch 23: Train Loss=1.4274, Train Acc=0.4797, Test Acc=0.2966
+Epoch 24: Train Loss=1.4123, Train Acc=0.4926, Test Acc=0.3220
+Epoch 25: Train Loss=1.4210, Train Acc=0.4788, Test Acc=0.2966
+
+Final Test Accuracy: 0.2966
+
+Classification Report:
+                            precision    recall  f1-score   support
+
+         actinic keratosis       1.00      0.06      0.12        16
+      basal cell carcinoma       0.29      0.50      0.36        16
+            dermatofibroma       0.00      0.00      0.00        16
+                  melanoma       0.09      0.06      0.07        16
+                     nevus       0.45      0.94      0.61        16
+pigmented benign keratosis       0.18      0.44      0.26        16
+      seborrheic keratosis       0.00      0.00      0.00         3
+   squamous cell carcinoma       0.00      0.00      0.00        16
+           vascular lesion       0.43      1.00      0.60         3
+
+                  accuracy                           0.30       118
+                 macro avg       0.27      0.33      0.23       118
+              weighted avg       0.28      0.30      0.21       118
