@@ -1,0 +1,26 @@
+Epoch 1: Train Loss=1.5562, Train Acc=0.3359, Test Acc=0.3666
+Epoch 2: Train Loss=1.5007, Train Acc=0.3849, Test Acc=0.3666
+Epoch 3: Train Loss=1.4565, Train Acc=0.4192, Test Acc=0.4837
+Epoch 4: Train Loss=1.3754, Train Acc=0.4867, Test Acc=0.5271
+Epoch 5: Train Loss=1.2868, Train Acc=0.5253, Test Acc=0.5445
+Epoch 6: Train Loss=1.2504, Train Acc=0.5384, Test Acc=0.5466
+Epoch 7: Train Loss=1.1961, Train Acc=0.5509, Test Acc=0.5488
+Epoch 8: Train Loss=1.1582, Train Acc=0.5749, Test Acc=0.5792
+Epoch 9: Train Loss=1.1434, Train Acc=0.5732, Test Acc=0.5618
+Epoch 10: Train Loss=1.1340, Train Acc=0.5808, Test Acc=0.5879
+
+Final Accuracy: 0.5879
+
+Classification Report:
+                         precision    recall  f1-score   support
+
+      actinic keratosis       0.56      0.79      0.65       146
+   basal cell carcinoma       0.64      0.71      0.67       169
+               melanoma       0.00      0.00      0.00        11
+                  nevus       0.50      0.53      0.51        49
+   seborrheic keratosis       0.67      0.21      0.32        47
+squamous cell carcinoma       0.00      0.00      0.00        39
+
+               accuracy                           0.59       461
+              macro avg       0.39      0.37      0.36       461
+           weighted avg       0.53      0.59      0.54       461
